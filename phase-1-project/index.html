@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Your Anime Inspiration</title>
+        <link rel="stylesheet" href="style.css"/> 
+        <script src="index.js"></script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <h1 id="title" style="text-align: center;">Your Anime Inspiration</h1>
+            <p style="text-align: center;"> 
+                <button id="search-anime-btn"> Search Anime Quote by Title</button>
+                <button id="search-char-btn"> Search a Quote by Character</button>
+                <br>
+                <button id="ten-random-quotes"> Get Ten Random Quotes 🤔</button>
+                <br>
+                <button id="random-quote"> Get one Random Quote</button>
+                <br>
+                <button id="available-anime"> All Available Animes </button>
+                <br>
+            </p>
+        </div>
+       
+
+        <p style="text-align: center;"></p>
+        
+        <div class="container" style="text-align: center;">
+
+            <form class="search-anime-form">
+                <h3>Search by Anime Title</h3>
+                <input 
+                type="text" 
+                name="title" 
+                value="" 
+                placeholder="Enter an anime title here..." 
+                class="input-text"
+                />
+                <input type="submit" 
+                name="submit"
+                value="Submit"
+                class="submit"
+                />
+            </form>
+
+            <form class="search-char-form">
+                <h3>Search by Character</h3>
+                <input 
+                type="text" 
+                name="title" 
+                value="" 
+                placeholder="Enter character name here..." 
+                class="input-text"
+                />
+                <input type="submit" 
+                name="submit"
+                value="Submit"
+                class="submit"
+                />
+            </form>
+        </div>
+        
+        </br>
+
+        <div>
+            <ul id="quote-list"></ul>
+        </div>
+
+        <div>
+            <ul id="anime-list"></ul>
+        </div>
+
+        <button id="back">=</button>
+        <button id="forward">=</button>
+    
+    </body>
+</html>
